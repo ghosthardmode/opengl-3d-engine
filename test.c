@@ -10,8 +10,8 @@ int main() {
          0.0f,  0.5f, 0.0f
     };
     int indices[] = {    };
-    FILE *pVer = fopen("C:\\Users\\Sergei Frolov\\CLionProjects\\untitled\\vertex.vert", "r");
-    FILE *pFrag = fopen("C:\\Users\\Sergei Frolov\\CLionProjects\\untitled\\fragment.frag", "r");
+    FILE *pVer = fopen("../vertex.vert", "r");
+    FILE *pFrag = fopen("../fragment.frag", "r");
     if (pVer == NULL || pFrag == NULL) {
         printf("Error opening shader files\n");
         exit(1);
