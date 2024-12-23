@@ -7,7 +7,8 @@ SET(target test.c)
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
-include("C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\FindGLFW3.cmake")
+#for windows
+#include("C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\FindGLFW3.cmake")
 find_package(GLFW3 REQUIRED)
 include_directories(${GLFW3_INCLUDE_DIR})
 
